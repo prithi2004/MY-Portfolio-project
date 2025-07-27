@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>MY portfolio</title>
+   <link rel="stylesheet" href="portfolio.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+   <nav>
+      <input type="checkbox" class="checkbox" id="check">
+      <h1 class="nav-head">Prithi.B</h1>
+      <ul>
+         <li><a href="#home">Home</a></li>
+         <li><a href="#about">About</a></li>
+         <li><a href="#service">Why Me</a></li>
+         <li><a href="#portfolio">My Work</a></li>
+         <li><a href="#contact">Contact</a></li>
+         <a href="#contact"><button class="contact-btn">Contact Me</button></a>
+      </ul>
+      <label for="check" class="checkbtn">
+         <i class="fas fa-bars"></i>
+      </label>
+   </nav>
+
+   <section id="home" class="home">
+      <img src="profile.jpeg" alt="Profile Picture" width="400",height=400>
+      <div class="description">
+         <h1>Hello I'm <br><span>Prithi</span></h1>
+         <h2>I'm <span>Web developer.....</span></h2>
+         <p>Hi, I'm prithi.B, a passionate web developer dedicated to creating innovative, user-friendly websites and web applications. With expertise in front-end and back-end technologies, I strive to craft seamless digital experiences that are both functional and visually engaging. Explore my work and let's collaborate on your next project!</p>
+         <div class="font">
+            <a href="https://www.linkedin.com/in/prithi62004" target="_blank">
+               <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/prithi2004" target="_blank">
+               <i class="fa fa-git"></i>
+            </a>
+         </div>
+         <button>Download Resume</button>
+      </div>
+   </section>
+
+   <section id="about" class="about">
+      <div class="about-section">
+         <h1>About <span>Me</span></h1>
+         <h2>Web <span>Developer</span></h2>
+         <p>A web developer is a professional who designs, builds, and maintains websites or web applications. They work with programming languages like HTML, CSS, JavaScript, and server-side technologies. Their goal is to create functional, responsive, and visually appealing web experiences.</p>
+         <button class="about_btn"><a href="https://www.linkedin.com/in/prithi62004">Read more</a></button>
+      </div>
+      <div class="about_photo">
+         <img src="profile.jpeg" alt="About Image" width="400" height="400">
+      </div>
+   </section>
+
+   <section id="service">
+      <h1 class="service_section">Why <span>Me</span></h1>
+      <div class="card">
+         <div class="service_card">
+            <i class="fas fa-computer"></i>
+            <h2>Frontend Developer</h2>
+            <p>Frontend development is the process of building the visual and interactive parts of a website or application that users directly interact with. It involves using languages like HTML, CSS, and JavaScript to create responsive and dynamic user interfaces.</p>
+            <a href="https://roadmap.sh/frontend">Read more</a>
+         </div>
+         <div class="service_card">
+            <i class="fas fa-computer"></i>
+            <h2>Java Fundamentals</h2>
+            <p>Java is a high-level, object-oriented programming language known for its portability across platforms. It is widely used for building applications, from web services to mobile apps, with its "write once, run anywhere" philosophy.</p>
+            <a href="https://www.geeksforgeeks.org/java/java/">Read more</a>
+         </div>
+         <div class="service_card">
+            <i class="fas fa-computer"></i>
+            <h2>Backend Basics</h2>
+            <p>Backend development focuses on server-side programming, databases, and application logic that powers websites or applications. It ensures data processing, storage, and secure communication between the user interface and server.</p>
+            <a href="https://www.guvi.in/blog/what-is-backend-development/">Read more</a>
+         </div>
+      </div>
+   </section>
+
+   <section id="portfolio">
+      <h1 class="port_section">My <span>Projects</span></h1>
+      <div class="project">
+         <div class="port_card">
+            <img src="video.jpg" alt="Video Chat Project">
+            <div class="content">
+               <h1>Video Chat Project</h1>
+               <p>This project is a real-time video chat application that allows users to connect and communicate through video calls using WebRTC technology.</p>
+               <div class="overlay">
+                  <a href="https://github.com/prithi2004/React.js-projects/tree/main/Project-video-chat" target="_blank">Explore</a>
+               </div>
+            </div>
+         </div>
+         <div class="port_card">
+            <img src="OIP.jpg" alt="Hostel Management System">
+            <div class="content">
+               <h1>Hostel Management System</h1>
+               <p>This project is a web-based hostel management system for managing room allocations, student records, and fee tracking efficiently.</p>
+               <div class="overlay">
+                  <a href="https://github.com/prithi2004/PHP-projects/tree/main/Hostel_Management-System" target="_blank">Explore</a>
+               </div>
+            </div>
+         </div>
+         <div class="port_card">
+            <img src="doctor.jpg" alt="Doctor Appointment System">
+            <div class="content">
+               <h1>Doctor Appointment System</h1>
+               <p>This project is a web-based application that facilitates the booking and management of doctor appointments efficiently.</p>
+               <div class="overlay">
+                  <a href="https://github.com/prithi2004/PHP-projects/tree/main/Doctor-Appointmment-project" target="_blank">Explore</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="contact">
+      <div class="form">
+         <h1>Contact <span>Me</span></h1>
+         <form action="#home">
+            <input type="text" name="name" placeholder="Enter your name" required><br>
+            <input type="email" name="email" placeholder="Enter your email" required><br>
+            <input type="text" name="mno" placeholder="Enter your phone number"><br>
+            <textarea name="msg" rows="7" placeholder="Enter your Message"></textarea><br>
+            <button class="form-btn">Submit</button>
+         </form>
+      </div>
+   </section>
+</body>
+</html>
