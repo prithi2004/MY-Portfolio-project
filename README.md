@@ -19,8 +19,8 @@ A **responsive personal portfolio website** built with **HTML, CSS, and JavaScri
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **Bootstrap** *(if used)*
-- **Font Awesome** for icons
+
+
 
 ---
 
@@ -35,3 +35,9 @@ portfolio-website/
 │   ├── project1.png
 │   └── ...
 └── README.md
+
+---
+
+If you haven’t deployed your **Portfolio Website** yet, I can give you a **step-by-step GitHub Pages deployment guide** so you can make this `Live Demo` link work today.  
+
+Do you want me to give you that guide now so your portfolio link is live before the end of today?
